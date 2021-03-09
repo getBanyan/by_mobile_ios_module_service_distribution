@@ -1,1 +1,1 @@
-# Banyan Service SDK Guide
+# BYServiceSDK Guide
