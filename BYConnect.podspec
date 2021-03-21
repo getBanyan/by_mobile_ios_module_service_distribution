@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
 
-  s.name         = "BYServiceSDK"
-  s.version      = "0.1.0"
-  s.summary      = "The BYServiceSDK is an iOS framework that allows you to easily integrate and leverage Banyan services."
+  s.name         = "BYConnect"
+  s.version      = "0.2.0"
+  s.summary      = "BYConnect is an iOS framework that helps you integrate with Banyan quickly and securely."
   s.description  = <<-DESC
-      The BYServiceSDK is a universal iOS framework that was built using Swift and supports devices and simulators.
-      The purpose of this SDK is to simplify your integration with Banyan and our partners.
+      BYConnect is a universal iOS framework that was built using Swift and supports devices and simulators.
+      The BYConnect framework manages bank authentication, credit card authentication and securely sending data to the Banyan cloud.
                    DESC
 
-  s.homepage     = "https://github.com/getBanyan/by_mobile_ios_module_service_distribution"
+  s.homepage     = "https://github.com/getBanyan/by_mobile_ios_framework_connect_distribution"
   s.license      = { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
   s.swift_version = "5"
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.ios.vendored_frameworks = 'BYServiceSDK.framework'
-  s.source            = { :git => "https://github.com/getBanyan/by_mobile_ios_module_service_distribution.git", :tag => "#{s.version}" }
+  s.ios.vendored_frameworks = 'BYConnect.framework'
+  s.source            = { :git => "https://github.com/getBanyan/by_mobile_ios_framework_connect_distribution.git", :tag => "#{s.version}" }
   s.exclude_files = "Classes/Exclude"
 
 end
