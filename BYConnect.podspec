@@ -23,9 +23,9 @@ Pod::Spec.new do |s|
   }
   s.author         = { 'Shawn' => 'shawnfrank.work@gmail.com' }
   s.ios.deployment_target = '13.0'
-  s.dependency "VGSCollectSDK","~> 1.7.5"
-  s.dependency "VGSCollectSDK/CardScan","~> 1.7.5"
-  s.dependency "AWSLambda","~> 2.23.2"
+  s.dependency "VGSCollectSDK","1.7.5"
+  s.dependency "VGSCollectSDK/CardScan","1.7.5"
+  s.dependency "AWSLambda","2.23.2"
   s.swift_version = "5"
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
