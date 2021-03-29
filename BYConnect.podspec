@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BYConnect"
-  s.version      = "0.21.0"
+  s.version      = "0.21.1"
   s.summary      = "BYConnect is an iOS framework that helps you integrate with Banyan quickly and securely."
   s.description  = <<-DESC
       BYConnect is a universal iOS framework that was built using Swift and supports devices and simulators.
